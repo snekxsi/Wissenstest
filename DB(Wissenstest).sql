@@ -1,22 +1,6 @@
--- phpMyAdmin SQL Dump
--- version 5.2.0
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Erstellungszeit: 16. Jan 2023 um 08:53
--- Server-Version: 10.4.27-MariaDB
--- PHP-Version: 8.2.0
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Datenbank: `wissenstest`
 --
@@ -229,7 +213,3 @@ INSERT INTO `python_lek` (`Frage`, `AntwortA`, `AntwortB`, `AntwortC`, `AntwortD
 ('Ich kaufe drei Hemden. Wieviel kostet es Insgesamt\r\nprint(\"Hemd=1,Gürtel=2,Schuhe=3\")\r\nrelation = {1:35,2:10,3:50}\r\npreis = float(relation[1]*3)-10\r\nprint(preis)', '95', '105', '150', '140', NULL, NULL, NULL, NULL, NULL, NULL, 'A'),
 ('Was ist richtig.\r\nHinweis: Diese Frage ist allgemein aus Programmiergrundlagen! Da es in Python keine Konstanten gibt!', 'Eine Variable ist: veränderbar\r\nEine Konstante ist: Wert wird einmal festgelegt und kann nicht mehr verändert werden.', 'Eine Variable ist: Wert wird einmal festgelegt und kann nicht mehr verändert werden.\r\nEine Konstante ist: veränderbar', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'A');
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
