@@ -57,7 +57,7 @@ while True:
     try:
         conn = mysql.connector.connect(
             host='127.0.0.1',
-            user='elias',  # // User hinzufügen
+            user='',  # // User hinzufügen
             password='',  # // Passwort hinzufügen
             database="wissenstest"
         )
