@@ -1,5 +1,5 @@
 ## Wissenstest
-Ein Pythonscript für ein Wissenstest(Multiple Chopice)
+Ein Pythonscript für ein Wissenstest(Multiple Choice)
 Zur Prüfungsvorbereitug der Umschulung IT-FIAE
 
 ## Themen für die Tests in der DB
