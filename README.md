@@ -13,6 +13,6 @@ Zur Prüfungsvorbereitug der Umschulung IT-FIAE
 ## DB
 Die DB kann Importiert werden.
 
-## Script
-In dem Script muss noch der Name und Passwort vom DB Benutzer geändert werden.
+## !help
+Es muss noch der Name und Passwort vom DB Benutzer geändert werden.
 Die Stelle ist als Kommentar gekennzeichnet.
